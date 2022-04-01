@@ -36,7 +36,7 @@ public class MyStepdefinitions {
     public void digitaLosCampos(List<TablaCampos> tablaCampos) {
         OnStage.theActorInTheSpotlight().attemptsTo(Ingresar.registro(tablaCampos.get(0)));
     }
-    
+
     @Then("^encuentra la opción de registro para acceder con el nuevo usuario creado$")
     public void encuentraLaOpciónDeRegistroParaAccederConElNuevoUsuarioCreado() {
     }

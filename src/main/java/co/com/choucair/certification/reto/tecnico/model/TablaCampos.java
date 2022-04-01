@@ -10,9 +10,6 @@ public class TablaCampos {
     private String strComputer;
     private String strVersion;
     private String strOSLanguage;
-    private String strMobile;
-    private String strModel;
-    private String strSystem;
     private String strPassword;
     private String strConfirmPass;
 
@@ -88,30 +85,6 @@ public class TablaCampos {
 
     public void setStrOSLanguage(String strOSLanguage) {
         this.strOSLanguage = strOSLanguage;
-    }
-
-    public String getStrMobile() {
-        return strMobile;
-    }
-
-    public void setStrMobile(String strMobile) {
-        this.strMobile = strMobile;
-    }
-
-    public String getStrModel() {
-        return strModel;
-    }
-
-    public void setStrModel(String strModel) {
-        this.strModel = strModel;
-    }
-
-    public String getStrSystem() {
-        return strSystem;
-    }
-
-    public void setStrSystem(String strSystem) {
-        this.strSystem = strSystem;
     }
 
     public String getStrPassword() {
